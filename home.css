@@ -96,6 +96,7 @@ body {
     /* font-family: 'Cormorant Garamond', serif; */
     font-family: "Great Vibes", cursive;
     font-size: clamp(2rem, 2.5vw, 1.4rem);
+    letter-spacing: 0.04em;
     /* font-style: italic; */
     text-align: left;
     color: var(--text);
@@ -691,7 +692,7 @@ footer {
 
     .hero-data {
         font-size: clamp(0.9rem, 3.8vw, 1.1rem);
-        margin-top: 14px;
+        margin-top: 1px;
     }
 
     /* ── Seções ── */
