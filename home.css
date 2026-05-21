@@ -85,7 +85,7 @@ body {
     } */
 
 .hero-title {
-    font-family: "Imperial Script", cursive;
+    font-family: "MonteCarlo", cursive;
     font-style: italic;
     font-size: clamp(2rem, 6vw, 4.2rem);
     font-weight: 700;
@@ -100,7 +100,7 @@ body {
 }
 
 .hero-subtitle {
-    font-family: "Imperial Script", cursive;
+    font-family: "MonteCarlo", cursive;
     font-style: italic;
     font-size: clamp(1rem, 6vw, 4.2rem);
     font-weight: 700;
