@@ -239,7 +239,7 @@ main {
 
 .text-sobre {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     font-style: italic;
     color: var(--text);
     margin-bottom: 20px;
@@ -354,7 +354,7 @@ main {
 
 .location-addr {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(.85rem, 2.5vw, 1.3rem);
+    font-size: clamp(.85rem, 2.5vw, 1.4rem);
     line-height: 1rem;
     color: var(--text);
     margin-bottom: 20px;
@@ -433,13 +433,13 @@ p {
 }
 
 .gift-title {
-    font-family: "MonteCarlo", cursive;
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(1rem, 2.5vw, 1.6rem);
     /* font-size: .88rem; */
-    /* font-style: italic; */
+    font-style: italic;
     line-height: 1.5;
     font-weight: 500;
-    letter-spacing: .1em;
+    letter-spacing: .04em;
     color: var(--bege);
     text-shadow: 1px 0px var(--marsala);
     margin-bottom: 10px;
@@ -447,10 +447,10 @@ p {
 
 .gift-desc {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--text);
     line-height: 1.5;
-    letter-spacing: .1em;
+    letter-spacing: .09em;
 }
 
 /* ── RSVP ── */
@@ -527,14 +527,14 @@ p {
 }
 
 /* ── FOOTER ── */
-footer {
+/* footer {
     background: var(--azul);
     color: rgba(255, 255, 255, .6);
     text-align: center;
     padding: 30px;
     font-size: .78rem;
     letter-spacing: .08em;
-}
+} */
 
 /* ══════════════════════════════════════════
        MOBILE NAV — barra inferior fixa
@@ -709,7 +709,7 @@ footer {
     }
 
     .text-sobre {
-        font-size: clamp(1rem, 3.8vw, 1.2rem);
+        font-size: clamp(1rem, 3.8vw, 1.5rem);
         text-align: center;
         padding: 0 4px;
         line-height: 1.6;
@@ -753,7 +753,7 @@ footer {
     }
 
     .location-addr {
-        line-height: 1.5;
+        line-height: 1.6;
     }
 
     /* ── Iframe do Maps: 100% de largura ── */
@@ -789,7 +789,7 @@ footer {
     }
 
     .rsvp-phone {
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 0 12px;
         line-height: 1.6;
     }
@@ -836,11 +836,11 @@ footer {
     }
 
     .gift-title {
-        font-size: 0.85rem;
+        font-size: 1.15rem;
     }
 
     .gift-desc {
-        font-size: 0.78rem;
+        font-size: 0.92rem;
         letter-spacing: 0.05em;
     }
 
