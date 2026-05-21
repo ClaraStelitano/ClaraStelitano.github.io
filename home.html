@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Clara Stelitano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Imperial+Script&family=MonteCarlo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- SIDEBAR NAV (desktop) -->
+  <nav class="sidebar">
+    <a href="#sobre" onclick="setActive(this)">Sobre Mim</a>
+    <a href="#evento" onclick="setActive(this)">Evento</a>
+    <a href="#trajes" onclick="setActive(this)">Vestimenta</a>
+    <a href="#presentes" onclick="setActive(this)">Presentes</a>
+    <a href="#confirmar" onclick="setActive(this)">Confirmar</a>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <header class="hero">
+    <div class="hero-div">
+      <h1 class="hero-title">Clara Stelitano</h1>
+      <h1 class="hero-subtitle">15 Anos</h1>
+      <p class="hero-data">25 de Julho de 2026 | 19:45</p>
+    </div>
+
+  </header>
+
+  <div class="layout">
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+      <!-- SOBRE MIM -->
+      <section class="section" id="sobre">
+        <!-- <span class="decor-leaf" style="top:10px;right:20px">🌿</span> -->
+        <h2 class="section-title">Sobre mim</h2>
+        <div class="section-divider"></div>
+        <p class="text-sobre">Sou uma pessoa criativa, apaixonada por música, dança e arte.
+          Amo desenhar e transformar sentimentos em algo bonito e cheio de significado.
+          Gosto de aprender sobre assuntos diferentes e entender tudo a fundo.
+          Sou uma mistura de sensibilidade, força, imaginação e curiosidade no mundo! </p>
+
+        <!-- <div class="content">
+        <div class="photo-wrap">
+          <img src="img/foto7.jpeg" alt="Foto da debutante" />
+        </div>
+
+          <div class="bio-text">
+            <p>
+              Amo ouvir música velha, bater nos meninos do jiu-jitsu e fazer minhas macumbas. Não mexam comigo.
+            </p>
+            <p>
+              Sou personalidade Áries, entusiasta,
+              amo a dança, culinária, uma música, uma
+              moda e caminha.
+            </p>
+          </div>
+        </div>
+      </div> -->
+
+
+        </br>
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <img class="gallery-img" src="img/foto11.jpeg" alt="clara">
+          </div>
+          <div class="gallery-card">
+            <img class="gallery-img" src="img/foto10.jpeg" alt="clara">
+          </div>
+          <div class="gallery-card">
+            <img class="gallery-img" src="img/foto12.jpeg" alt="clara">
+          </div>
+          <div class="gallery-card">
+            <img class="gallery-img" src="img/foto1.jpeg" alt="clara">
+          </div>
+          <div class="gallery-card">
+            <img class="gallery-img" src="img/foto6.jpeg" alt="clara">
+          </div>
+        </div>
+      </section>
+
+      <!-- EVENTO -->
+      <section class="section" id="evento">
+        <h2 class="section-title">O Evento</h2>
+        <div class="section-divider"></div>
+
+        <!-- <div class="location-grid"> -->
+        <!-- <div class="location-card,location-grid"> -->
+        <div class="conteudoTotal">
+          <div class="conteudoLeft">
+            <img src="img/foto20.png">
+          </div>
+          <div class="conteudoRight">
+            <p class="location-label">Salão Évora Festas e Eventos</p>
+            <p class="location-addr">R. Domingos Lopes, 518 - casa 1A - Campinho, Rio de Janeiro - RJ</p>
+            <br>
+            <p class="location-label">Estacionamento</p>
+            <p class="location-addr">R. Domingos Lopes, 489 - Campinho, Rio de Janeiro - RJ</p>
+            <br>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.949579290275!2d-43.3407537!3d-22.8783209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9962daef02a1d3%3A0x173c0914b69ce580!2s%C3%89vora%20Festas%20e%20Eventos!5e0!3m2!1sen!2sbr!4v1779203268792!5m2!1sen!2sbr"
+              width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <!-- VESTIMENTA -->
+      <section class="section" id="trajes">
+        <h2 class="section-title">Vestimenta</h2>
+        <div class="section-divider"></div>
+        <div class="conteudoTotal">
+          <div class="conteudoFoto">
+            <img src="img/foto6.jpeg" alt="clara">
+          </div>
+          <div class="contudoTextoTraje">
+            <p><strong>Estilo: Esporte Fino</strong> </p>
+            <br>
+            <p>Preparamos uma noite inesquecível e cheia de glamour.
+              <br> Venha com seu melhor traje para celebrar e dançar a noite toda conosco!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRESENTES -->
+      <section class="section" id="presentes">
+        <h2 class="section-title">Sugestão de Presentes</h2>
+        <div class="section-divider"></div>
+        <p class="text-sobre">Sua presença é meu maior presente mas, caso queira me presentear, essas são algumas
+          sugestões:</p>
+
+        <div class="gifts-grid">
+          <div class="gift-card">
+            <span class="gift-icon">💰</span>
+            <!-- <img src="img/icon_money.png" width="100" height="50"> -->
+            <div class="gift-title">Chave PIX</div>
+            <div class="gift-desc"><strong>clara.stelitano@gmail.com</strong><br>Clara Stelitano Gomes</div>
+          </div>
+          <div class="gift-card">
+            <span class="gift-icon">💐</span>
+            <div class="gift-title">Perfume</div>
+            <div class="gift-desc">Fragrancia suavemente doce</div>
+          </div>
+          <div class="gift-card">
+            <span class="gift-icon">🪞</span>
+            <div class="gift-title">Maquiagem</div>
+            <div class="gift-desc">Produtos de beleza</div>
+          </div>
+          <div class="gift-card">
+            <span class="gift-icon">📖</span>
+            <div class="gift-title">Livro</div>
+            <div class="gift-desc">Gênero: Ação, Terror e Fantasia</div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- CONFIRMAR -->
+      <section class="section" id="confirmar">
+        <h2 class="section-title">Confirmar Presença</h2>
+        <div class="section-divider"></div>
+        <p class="text-sobre">Confirme sua presença por telefone ou WhatsApp</p>
+        <a class="btn-whatsapp" href="https://wa.me/5521988600268" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.136.562 4.14 1.541 5.875L0 24l6.293-1.511A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.812 9.812 0 01-5.031-1.384l-.361-.214-3.733.896.934-3.625-.235-.374A9.815 9.815 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z" />
+          </svg>
+          Confirmar via WhatsApp
+        </a>
+        <p class="rsvp-phone">Aguardamos você com muito carinho!</p>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- MOBILE BOTTOM NAV -->
+  <nav class="mobile-nav">
+    <div class="mobile-nav-inner">
+      <a href="#sobre" onclick="setActiveMobile(this)">
+        <span class="nav-icon">🏠</span>Sobre
+      </a>
+      <a href="#evento" onclick="setActiveMobile(this)">
+        <span class="nav-icon">📍</span>Evento
+      </a>
+      <a href="#trajes" onclick="setActiveMobile(this)">
+        <span class="nav-icon">👗</span>Trajes
+      </a>
+      <a href="#presentes" onclick="setActiveMobile(this)">
+        <span class="nav-icon">🎁</span>Presentes
+      </a>
+      <a href="#confirmar" onclick="setActiveMobile(this)">
+        <span class="nav-icon">✅</span>Confirmar
+      </a>
+    </div>
+  </nav>
+
+  <!-- <footer>
+    @ClaraStelitano15anos &nbsp;·&nbsp; 2026
+  </footer> -->
+
+  <script>
+    // ── Atualiza active na nav desktop ──
+    function setActive(el) {
+      document.querySelectorAll('nav.sidebar a').forEach(a => a.classList.remove('active'));
+      el.classList.add('active');
+    }
+
+    // ── Atualiza active na nav mobile ──
+    function setActiveMobile(el) {
+      document.querySelectorAll('.mobile-nav a').forEach(a => a.classList.remove('active'));
+      el.classList.add('active');
+    }
+
+    // ── Scroll suave com offset para compensar a nav inferior no mobile ──
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href').slice(1);
+        const target = document.getElementById(targetId);
+        if (!target) return;
+
+        e.preventDefault();
+
+        const isMobile = window.innerWidth <= 768;
+        // Offset: altura da nav inferior (~68px) + folga
+        const offset = isMobile ? 16 : 0;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+
+        window.scrollTo({ top, behavior: 'smooth' });
+      });
+    });
+
+    // ── Intersection Observer: destaca seção visível na nav ──
+    const sections = document.querySelectorAll('.section');
+    const sidebarLinks = document.querySelectorAll('nav.sidebar a');
+    const mobileLinks = document.querySelectorAll('.mobile-nav a');
+
+    // threshold menor para melhor detecção em telas pequenas
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          sidebarLinks.forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+          });
+          mobileLinks.forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, {
+      threshold: 0.25,
+      // rootMargin: exclui a faixa inferior ocupada pela nav mobile
+      rootMargin: '0px 0px -60px 0px'
+    });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+
+</html>
